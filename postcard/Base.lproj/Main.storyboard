@@ -55,10 +55,19 @@
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lYo-J3-KTE">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="153" width="246" height="74"/>
+                                </variation>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aHv-VI-NRQ">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="37" y="85" width="338" height="74"/>
+                                    <rect key="frame" x="16" y="102" width="241" height="43"/>
                                 </variation>
                             </label>
                         </subviews>
@@ -70,6 +79,7 @@
                                 <exclude reference="xD7-kv-cnB"/>
                                 <exclude reference="S3X-Tm-kpo"/>
                                 <exclude reference="lYo-J3-KTE"/>
+                                <exclude reference="aHv-VI-NRQ"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -79,6 +89,7 @@
                                 <include reference="xD7-kv-cnB"/>
                                 <include reference="S3X-Tm-kpo"/>
                                 <include reference="lYo-J3-KTE"/>
+                                <include reference="aHv-VI-NRQ"/>
                             </mask>
                         </variation>
                     </view>
@@ -87,6 +98,7 @@
                         <outlet property="enterNametextField" destination="YrU-dz-suX" id="xVi-Bu-VYt"/>
                         <outlet property="mailButton" destination="S3X-Tm-kpo" id="OuK-9J-iHQ"/>
                         <outlet property="messageLabel" destination="lYo-J3-KTE" id="aNu-cY-mFh"/>
+                        <outlet property="nameLabel" destination="aHv-VI-NRQ" id="lKY-nu-KEf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
